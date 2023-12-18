@@ -1,0 +1,129 @@
+body {
+    font-family: Arial; 
+    margin: 0;
+    padding: 0;
+    background-image: url(./Images/mint_background.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(red, green, blue, 0.0);
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    position: sticky;
+}
+
+hr {
+    width: 90%;
+    border: 1px solid #31241e;
+}
+
+header img {
+    border-radius: 36%;
+}
+
+#logo {
+    height: 75px;
+    width: 75px;
+    margin: 0px 10px 0px 80px;
+}
+
+nav {
+    margin: 0px 80px 0px auto;
+    justify-content: left;
+}
+
+nav a {
+    color: rgb(128, 255, 156);
+    background-color: rgba(255, 107, 107, 0.5);
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #b43535;
+    border-radius: 15px;
+}
+
+.section-parent { 
+    display: flex; 
+} 
+
+.info-left { 
+    width: 50%; 
+    height: 100%;
+    padding-left: 15%;
+} 
+
+.form-right { 
+    flex-direction: column;
+    width: 50%; 
+    height: 100%; 
+} 
+
+.form-background {
+    background-color: #d1c8c1;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: max-content;
+    overflow: hidden;
+}
+
+input {
+    width: 100%; 
+    padding: 12px 20px;
+    margin: 8px 0;  
+    border: 1px solid #b1a59c;  
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #d1c8c1;
+  }
+
+.form-background label {
+    display: block;
+    font-weight: bold; 
+    margin-bottom: 5px;
+}
+
+.form-background textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d1c8c1;
+    border: 1px solid #b1a59c; 
+}
+
+.form-background button{
+    background-color: #d1c8c1;
+    border: 1px solid #b1a59c;
+    border-radius: 5px;  
+}
+
+.form-background button:hover {
+    background-color: #bca49a;
+}
+
+.form-background button:active {
+    background-color: #9b887a;
+}
+
+.form-background input[type="file"]::file-selector-button {
+    background-color: #d1c8c1;
+    border: 1px solid #b1a59c;
+    padding: 5px 8px;
+    border-radius: 5px;  
+}
+  
+.form-background input[type="file"]::file-selector-button:hover {
+    background-color: #bca49a;
+}
+  
+.form-background input[type="file"]::file-selector-button:active { 
+    background-color: #9b887a;
+}

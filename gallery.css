@@ -1,0 +1,93 @@
+body {
+    font-family: Arial; 
+    margin: 0;
+    padding: 0;
+    background-image: url(./Images/mint_background.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(red, green, blue, 0.0);
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    position: sticky;
+}
+
+hr {
+    width: 90%;
+    border: 1px solid #31241e;
+}
+
+header img {
+    border-radius: 36%;
+}
+
+#logo {
+    height: 75px;
+    width: 75px;
+    margin: 0px 10px 0px 80px;
+}
+
+nav {
+    margin: 0px 80px 0px auto;
+    justify-content: left;
+}
+
+nav a {
+    color: rgb(128, 255, 156);
+    background-color: rgba(255, 107, 107, 0.5);
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #b43535;
+    border-radius: 15px;
+}
+
+.grid {
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: [line0] 1fr [line1] 1fr [line2] 1fr [line3] 1fr [line4];
+	grid-template-rows: [row0] 1fr [row1] 1fr [row2] 1fr [row3] 1fr [row4] 1fr [row5];
+    gap: 10px;
+    padding: 10px;
+}
+
+.item-1 {
+    display: flex;
+    grid-column: line0 / line1;
+    grid-row: row0 / row2;
+}
+
+.item-2 {
+    display: flex;
+    grid-column: line1 / line4;
+    grid-row: row0 / row2 ;
+}
+
+.item-3 {
+    display: flex;
+    grid-column: line0 / line1;
+    grid-row: row1 / row2;
+}
+
+.item-4 {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    grid-column: line1 / line2;
+    grid-row: row2 / row3;
+}
+
+.item-5 {
+    display: flex;
+    height: 150px;
+    grid-column: line1 / line3;
+    grid-row: row1 / row3;
+}

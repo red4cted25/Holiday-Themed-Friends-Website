@@ -1,0 +1,70 @@
+body {
+    font-family: Arial; 
+    margin: 0;
+    padding: 0;
+    background-image: url(./Images/mint_background.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(red, green, blue, 0.0);
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    position: sticky;
+}
+
+hr {
+    width: 90%;
+    border: 1px solid #31241e;
+}
+
+header img {
+    border-radius: 36%;
+}
+
+#logo {
+    height: 75px;
+    width: 75px;
+    margin: 0px 10px 0px 80px;
+}
+
+nav {
+    margin: 0px 80px 0px auto;
+    justify-content: left;
+}
+
+nav a {
+    color: rgb(128, 255, 156);
+    background-color: rgba(255, 107, 107, 0.5);
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #b43535;
+    border-radius: 15px;
+}
+
+.friend {
+    display: flex; 
+    margin-bottom: 20px;
+}
+  
+.friend:nth-child(even) {
+    flex-direction: row-reverse; 
+}
+  
+.friend img {
+    width: 150px;
+    margin-right: 20px;
+}
+  
+.friend:nth-child(even) img {
+    margin-right: 0;
+    margin-left: 20px;
+}

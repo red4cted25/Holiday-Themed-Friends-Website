@@ -1,0 +1,74 @@
+body {
+    font-family: Arial; 
+    margin: 0;
+    padding: 0;
+    background-image: url(./Images/mint_background.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(red, green, blue, 0.0);
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    position: sticky;
+}
+
+hr {
+    width: 90%;
+    border: 1px solid #31241e;
+}
+
+header img {
+    border-radius: 36%;
+}
+
+#logo {
+    height: 75px;
+    width: 75px;
+    margin: 0px 10px 0px 80px;
+}
+
+nav {
+    margin: 0px 80px 0px auto;
+    justify-content: left;
+}
+
+nav a {
+    color: rgb(128, 255, 156);
+    background-color: rgba(255, 107, 107, 0.7);
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #b43535;
+    border-radius: 15px;
+}
+
+.bp_image {
+    background-image: url(./Images/escape\ room.png);
+    background-size: cover;
+    height: 600px;
+    width: auto;
+}
+
+.cool_words {
+    color: white;
+    margin: -10px auto -10px auto;
+}
+
+section {
+    margin: 0 100px 0 100px;
+}
+
+.purpose {
+    margin: 15px 97px 0 97px;
+    background-color: rgba(255, 107, 107, 0.7);
+    border-radius: 25px;
+    padding: 3px 3px 3px 12px;
+}

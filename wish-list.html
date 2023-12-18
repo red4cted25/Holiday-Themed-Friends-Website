@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meat-Like Appendages | Wish List</title>
+    <link rel="stylesheet" href="wish-list.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img id="logo" src="./Images/daniel.png" alt="Daniel Logo"></a>
+        <h1>Meat-Like Appendages</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./aboutUs.html">About Us</a>
+            <a href="./gallery.html">Gallery</a>
+            <a href="./wish-list.html">Wish List</a>
+        </nav>
+    </header>
+    <hr>
+    <div class="section-parent">
+        <section class="info-left">
+            <h1>Wish List</h1>
+            <h5>Please fill out the form below to send Nico an email.</h5>
+            <p>coolio filler text</p>
+
+            <h4>E-Mail:</h4>
+            <p><a href="mailto:ndiaz413@west-mec.org">ndiaz413@west-mec.org</a></p>
+        </section>
+
+        <section class="form-right">
+            <form action="#">
+                <div class="form-background">
+                    <label for="name">Name: <abbr title="Required">*</abbr></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-background">
+                    <label for="item">Item(s): <abbr title="Required">*</abbr></label>
+                    <input type="text" id="item" name="item" required>
+                </div>
+                <div class="form-background">
+                    <label for="price">Price: <abbr title="Required">*</abbr></label>
+                    <input type="text" id="price" name="price" required>
+                </div>
+                <div class="form-background">
+                    <label for="message">Additional Comments: <abbr title="Required">*</abbr></label>
+                    <textarea id="textarea" name="message" rows="5" required></textarea>
+                </div>
+                <div class="form-background">
+                    <label type="product">Upload Image</label>
+                    <input type="file" name="product" id="product" accept="image/jpg, image/jpeg, image/png">
+                </div>
+                <div class="form-background">
+                    <button type="submit">Send Wish List</button>
+                </div>
+        </section>
+    </div>
+</body>
+</html>
