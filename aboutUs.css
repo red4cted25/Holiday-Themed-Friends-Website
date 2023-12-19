@@ -61,10 +61,14 @@ nav a:hover {
   
 .friend img {
     width: 150px;
-    margin-right: 20px;
+    margin-right: 100px;
 }
   
-.friend:nth-child(even) img {
+.friend:nth-child(odd) img {
     margin-right: 0;
-    margin-left: 20px;
+    margin-left: 100px;
+}
+
+.friend div {
+    padding: 0 15px 0 15px;
 }

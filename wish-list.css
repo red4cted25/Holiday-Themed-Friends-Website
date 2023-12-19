@@ -71,8 +71,8 @@ nav a:hover {
     border-radius: 25px;
     padding: 20px;
     margin-bottom: 10px;
-    width: max-content;
-    overflow: hidden;
+    width: 60%;
+    overflow: auto;
 }
 
 input {
@@ -126,4 +126,13 @@ input {
   
 .form-background input[type="file"]::file-selector-button:active { 
     background-color: #9b887a;
+}
+
+textarea {
+    resize: none;
+    max-width: 450px;
+}
+
+.info-left p {
+    width: 60%;
 }
